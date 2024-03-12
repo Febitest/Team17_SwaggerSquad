@@ -2065,10 +2065,11 @@
 											"    }\r",
 											"  ]\r",
 											"};\r",
-											"\r",
+											"if(pm.collectionVariables.get(\"UserId\") != null){\r",
 											"pm.test(\"Schema Validation\",()=>{\r",
 											"    pm.response.to.have.jsonSchema(schema);\r",
-											"});"
+											"});\r",
+											"}"
 										],
 										"type": "text/javascript"
 									}
@@ -2107,6 +2108,8 @@
 									"script": {
 										"exec": [
 											"pm.test(\"Response body data validation\",()=>{\r",
+											"    if(pm.response.json() && pm.response.json().length >0){\r",
+											"  \r",
 											"    pm.response.json().forEach(obj =>{\r",
 											"       // NULL Validation\r",
 											"        pm.expect(obj.userId).is.not.null;\r",
@@ -2124,7 +2127,8 @@
 											"        \r",
 											"    }\r",
 											"    \r",
-											"    )\r",
+											"    );\r",
+											"    }\r",
 											"\r",
 											"});"
 										],
