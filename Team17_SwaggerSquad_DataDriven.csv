@@ -1,0 +1,4 @@
+UserLoginEmailId,Password,Role-Id,Role-Status,First-Name,Last-Name,Time-Zone,Visa-Status_CSV,Middle-Name,LoginEmail,LinkedinUrl,EDU UG,EDU PG,Comments,programDescription,programName,programStatus,batchName,batchDescription,batchNoOfClasses,batchStatus
+sdetorganizers@gmail.com,Numpyninja@1,R01,Active,Doe,John,EST,US-Citizen,Smith,team74@gmail.com,https://www.linkedin.com/in/sample,MCA,BA,created,Presentations Skills Show OnTwo,Personality Development Two,Active,Coding Ten,Coding class Ten,4,Active
+sdetorganizers@gmail.com,Numpyninja@1,R02,Active,Wally,DA,PST,H4-EAD,Alex,team75@gmail.com,https://www.linkedin.com/in/sample1,Btech,Mtech,created,Data Testing Skill Set two,Data Testing Two,Active,AWS Three,AWS class Three,2,Active
+sdetorganizers@gmail.com,Numpyninja@1,R03,Active,Callan,SF,CST,H1B,Squad,team76@gmail.com,https://www.linkedin.com/in/sample2,BE,ME,created,Postman Testing Skill Set two,Postman Testing ,Active,Postman Four,Postman class Three,2,Active
